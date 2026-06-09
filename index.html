@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A configurable affiliate microsite starter for promoting automated creator tools, collecting leads, and measuring outbound clicks."
+    />
+    <title>Quiet Cashflow Toolkit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" data-site-name>Quiet Cashflow Toolkit</a>
+        <div class="nav-links">
+          <a href="#offers">Offers</a>
+          <a href="#playbook">Playbook</a>
+          <a href="#lead-magnet">Checklist</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Static site · affiliate-ready · deploy anywhere</p>
+          <h1>Launch a monetizable recommendation page in an afternoon.</h1>
+          <p class="hero-text" data-tagline>
+            A curated stack of tools that help creators automate, publish, and monetize while they sleep.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#lead-magnet" data-hero-cta>Get the free automation checklist</a>
+            <a class="button secondary" href="#offers">See recommended tools</a>
+          </div>
+          <p class="fine-print" data-disclosure>
+            Some links on this page can be affiliate links. If a visitor buys through them, you may earn a commission at no extra cost to the visitor.
+          </p>
+        </div>
+        <aside class="hero-card" aria-label="Revenue model summary">
+          <span class="badge">Passive-ish engine</span>
+          <h2>Traffic → Trust → Clicks → Commissions</h2>
+          <ul>
+            <li>Publish one useful page.</li>
+            <li>Capture email with a checklist.</li>
+            <li>Route buyers through tracked affiliate links.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="metrics" aria-label="Microsite benefits">
+        <article>
+          <strong>0</strong>
+          <span>backend services required</span>
+        </article>
+        <article>
+          <strong>4</strong>
+          <span>starter offers included</span>
+        </article>
+        <article>
+          <strong>100%</strong>
+          <span>configurable copy and links</span>
+        </article>
+      </section>
+
+      <section id="offers" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Recommended stack</p>
+          <h2>Offer cards loaded from JSON</h2>
+          <p>Swap in programs you are approved to promote. Each outbound click emits a browser event for analytics integrations.</p>
+        </div>
+        <div class="offer-grid" data-offers aria-live="polite"></div>
+      </section>
+
+      <section id="playbook" class="section split">
+        <div>
+          <p class="eyebrow">Automation playbook</p>
+          <h2>Make it as hands-off as ethically possible.</h2>
+          <ol class="steps">
+            <li><strong>Pick one niche.</strong> Promote tools for a specific audience, not everyone.</li>
+            <li><strong>Use honest reviews.</strong> Add screenshots, tradeoffs, and personal experience before scaling traffic.</li>
+            <li><strong>Automate follow-up.</strong> Connect the form to your email provider and send a helpful sequence.</li>
+            <li><strong>Measure clicks.</strong> Listen for the <code>affiliate-click</code> event and send it to your analytics tool.</li>
+          </ol>
+        </div>
+        <form id="lead-magnet" class="lead-form" data-lead-form>
+          <span class="badge">Lead magnet</span>
+          <h2>Send me the checklist</h2>
+          <p>Demo mode stores signups in this browser. Connect the handler in <code>scripts/app.js</code> to your email service before launch.</p>
+          <label>
+            Email address
+            <input name="email" type="email" placeholder="you@example.com" required />
+          </label>
+          <button class="button primary" type="submit">Save my spot</button>
+          <p class="form-status" data-form-status role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built for ethical affiliate marketing. No income is guaranteed; results depend on offer quality, traffic, trust, and compliance.</p>
+    </footer>
+
+    <script src="scripts/app.js" type="module"></script>
+  </body>
+</html>
