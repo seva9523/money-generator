@@ -1,0 +1,55 @@
+{
+  "siteName": "Quiet Cashflow Toolkit",
+  "tagline": "A curated stack of tools that help creators automate, publish, and monetize while they sleep.",
+  "disclosure": "Some links on this page can be affiliate links. If a visitor buys through them, you may earn a commission at no extra cost to the visitor.",
+  "heroCta": {
+    "label": "Get the free automation checklist",
+    "url": "#lead-magnet"
+  },
+  "offers": [
+    {
+      "name": "Creator storefront platform",
+      "category": "Digital products",
+      "headline": "Sell templates, guides, and downloads from one automated storefront.",
+      "commission": "Up to 30% recurring where available",
+      "effort": "Low setup, automated delivery",
+      "audience": "Creators who already have templates, spreadsheets, or guides",
+      "affiliateUrl": "https://example.com/affiliate/storefront?utm_source=quiet-cashflow&utm_medium=site&utm_campaign=starter",
+      "rating": 4.8,
+      "featured": true
+    },
+    {
+      "name": "AI writing workflow",
+      "category": "Content automation",
+      "headline": "Turn one idea into newsletters, social posts, and SEO drafts faster.",
+      "commission": "Flat bounty or recurring depending on partner terms",
+      "effort": "Medium setup, strong leverage",
+      "audience": "Solo founders, bloggers, and newsletter operators",
+      "affiliateUrl": "https://example.com/affiliate/writing?utm_source=quiet-cashflow&utm_medium=site&utm_campaign=starter",
+      "rating": 4.7,
+      "featured": true
+    },
+    {
+      "name": "Email newsletter service",
+      "category": "Audience building",
+      "headline": "Capture visitors once and monetize repeatedly with automated sequences.",
+      "commission": "Recurring SaaS commission where available",
+      "effort": "Medium setup, ongoing upside",
+      "audience": "Niche site owners and personal brands",
+      "affiliateUrl": "https://example.com/affiliate/newsletter?utm_source=quiet-cashflow&utm_medium=site&utm_campaign=starter",
+      "rating": 4.6,
+      "featured": false
+    },
+    {
+      "name": "Course hosting suite",
+      "category": "Education",
+      "headline": "Package expertise into evergreen lessons, upsells, and payment plans.",
+      "commission": "Revenue share varies by program",
+      "effort": "Higher setup, higher ticket",
+      "audience": "Experts with repeatable processes",
+      "affiliateUrl": "https://example.com/affiliate/courses?utm_source=quiet-cashflow&utm_medium=site&utm_campaign=starter",
+      "rating": 4.5,
+      "featured": false
+    }
+  ]
+}
